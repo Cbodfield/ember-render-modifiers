@@ -6,12 +6,7 @@ Releases are mostly automated using
 
 ## Preparation
 
-Since the majority of the actual release process is automated, the primary
-remaining task prior to releasing is confirming that all pull requests that
-have been merged since the last release have been labeled with the appropriate
-`lerna-changelog` labels and the titles have been updated to ensure they
-represent something that would make sense to our users. Some great information
-on why this is important can be found at
+Since the majority of
 [keepachangelog.com](https://keepachangelog.com/en/1.0.0/), but the overall
 guiding principles here is that changelogs are for humans, not machines.
 
