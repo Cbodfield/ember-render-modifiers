@@ -13,7 +13,7 @@ these modifiers. For example, a `didInsertElement` hook could be called by
 sdafsdad
 However, we strongly encourage you to take this opportunity to rethink your
 functionality rather than use these modifiers as a crutch. In many cases, classic
-lifecycle hooks like `didInsertElement` can be rewritten as custom modifiers that
+lifecycle hooks like `didInsertElement` can be rewritten as custom modifiers thatasdasd
 internalize functionality manipulating or generating state from a DOM element.
 Other times, you may find that a modifier is not the right fit for that logic at all,
 in which case it's worth revisiting the design to find a better pattern.
