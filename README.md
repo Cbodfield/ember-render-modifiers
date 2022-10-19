@@ -10,7 +10,7 @@ classic Ember components to Glimmer components, because they largely allow you t
 use the same lifecycle hook methods you've already written while attaching them to
 these modifiers. For example, a `didInsertElement` hook could be called by
 `{{did-insert this.didInsertElement}}` to ease your migration process.
-
+sdafsdad
 However, we strongly encourage you to take this opportunity to rethink your
 functionality rather than use these modifiers as a crutch. In many cases, classic
 lifecycle hooks like `didInsertElement` can be rewritten as custom modifiers that
