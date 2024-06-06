@@ -1,6 +1,6 @@
 {
   "name": "@ember/render-modifiers",
-  "version": "2.0.4",
+  "version": "2.1.0",
   "description": "Implements did-insert / did-update / will-destry modifiers for emberjs/rfcs#415",
   "keywords": [
     "ember-addon"
@@ -33,11 +33,13 @@
   },
   "devDependencies": {
     "@ember/optional-features": "^2.0.0",
+    "@ember/string": "^3.0.1",
     "@ember/test-helpers": "^2.6.0",
     "@embroider/test-setup": "^1.0.0",
     "@embroider/util": "^1.0.0",
     "@glimmer/component": "^1.0.4",
     "@glimmer/tracking": "^1.0.4",
+    "@glint/template": "^1.0.2",
     "babel-eslint": "^10.1.0",
     "ember-auto-import": "^2.2.4",
     "ember-cli": "~4.1.0",
@@ -70,7 +72,13 @@
     "webpack": "^5.65.0"
   },
   "peerDependencies": {
-    "ember-source": "^3.8 || 4"
+    "ember-source": "^3.8 || ^4.0.0 || ^5.0.0",
+    "@glint/template": "^1.0.2"
+  },
+  "peerDependenciesMeta": {
+    "@glint/template": {
+      "optional": true
+    }
   },
   "engines": {
     "node": "12.* || 14.* || >= 16"
@@ -97,6 +105,13 @@
     },
     "github": {
       "release": true
+    }
+  },
+  "typesVersions": {
+    "*": {
+      "*": [
+        "types/*"
+      ]
     }
   }
 }
